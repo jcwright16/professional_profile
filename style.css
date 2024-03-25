@@ -19,7 +19,7 @@ fieldset {
     margin-right: 3em;
 }
 
-#bg-skills, #skills, .job-header, #edu-certs, #clifton-strengths {
+#bg-skills, #skills, #edu-certs, #clifton-strengths {
     display: flex;
 }
 
@@ -47,7 +47,8 @@ fieldset {
     width: 60%;
 }
 
-.job-header {
+.role {
+    display: flex;
     width: 100%;
     justify-content: space-between;
 }
