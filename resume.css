@@ -1,0 +1,11 @@
+body {
+    width: 8.5in;
+    height: 11 in;
+    margin: 0 auto;
+    padding-left: 0.5in;
+    padding-right: 0.5in;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    box-sizing: border-box;
+    display: block;
+}

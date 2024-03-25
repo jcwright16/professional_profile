@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto';
+    background-color: #DAF7A6;
+}
+
+fieldset {
+    vertical-align: middle;
+    background-color: white;
+}
+
+#id-card {
+    padding: 1em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact-info {
+    display: inline-block;
+    margin-right: 3em;
+}
+
+#bg-skills, #skills, .job-header, #edu-certs, #clifton-strengths {
+    display: flex;
+}
+
+#clifton-strengths {
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 1em, 3em;
+}
+
+.popup-text {
+    position: absolute; /* Position the text box absolutely */
+    background-color: #fff; /* Background color of the text box */
+    border: 1px solid #ccc; /* Border of the text box */
+    padding: 1em; /* Padding around the text box content */
+    text-align: left;
+    opacity: 0; /* Initially set opacity to 0 */
+    transition: opacity 0.5s ease-in-out; /* Add transition for opacity change */
+}
+
+.hover-object:hover .popup-text {
+    opacity: 1;
+}
+
+#background {
+    width: 60%;
+}
+
+.job-header {
+    width: 100%;
+    justify-content: space-between;
+}
+
+#education, #certifications {
+    width: 50%;
+}
+
+#certifications {
+    display: flex;
+    align-items: center;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+}
