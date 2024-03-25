@@ -1,11 +1,13 @@
 body {
     font-family: 'Roboto';
-    background-color: #DAF7A6;
+    background-color: #6b8ca9;
+    width: 97vw;
 }
 
 fieldset {
     vertical-align: middle;
     background-color: white;
+    margin-top: 0.5em;
 }
 
 #id-card {
@@ -17,6 +19,14 @@ fieldset {
 .contact-info {
     display: inline-block;
     margin-right: 3em;
+}
+
+.contact-info a {
+    color: white;
+}
+
+.contact-info a:hover {
+    color: cyan;
 }
 
 #bg-skills, #skills, #edu-certs, #clifton-strengths {
@@ -66,9 +76,18 @@ fieldset {
     align-items: center;
 }
 
+#certifications a {
+    color: black;
+}
+
+#certifications a:hover {
+    color: cyan;
+}
+
 legend {
     font-weight: bold;
     text-align: left;
+    background-color: white;
 }
 
 @media (max-width: 680px) {
