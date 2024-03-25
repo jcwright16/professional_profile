@@ -4,21 +4,94 @@
         <meta charset="UTP-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="resume.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Uncial+Antiqua">
+        <link rel="stylesheet" type="text/css" href="print.css" media="print">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <title>Resume</title>
     </head>
 
     <body>
         <div id="resume-head">
             <h1>Jason Wright, M.S.</h1>
-            <h2>Data Engineer</h2>
-            <b>Email: <a href="mailto:jasoncraigwright@gmail.com">jasoncraigwright@gmail.com</a></b><br>
-            <b>Phone: (765) 729-8952</b><br>
-            <b><a href="https://www.linkedin.com/in/jason-wright-332364a7/">LinkedIn</a></b>
+            <div id="contact-info">
+                <div>
+                    <b>Email: </b> jasoncraigwright@gmail.com<br>
+                    <b>Phone: </b> (765) 729-8952<br>
+                </div>
+                <div>
+                    <b>Website: </b> https://jcwright16.github.io/professional_profile/<br>
+                    <b>LinkedIn: </b> https://www.linkedin.com/in/jason-wright-332364a7/
+                </div>
+            </div>
         </div>
 
         <div id="experience">
-
+            <div id="accenture" class="job">
+                <h3 class="company-name">Accenture</h3>
+                <div class="role">
+                    <b>Decision Science Practitioner</b>
+                    <b>June 2020 - Present</b>
+                </div>
+                <ul>
+                    <li>
+                        Worked as part of a core UX development team for a Python-based web application
+                        using the Plotly Dash library for a tobacco distribution client
+                    </li>
+                    <li>
+                        Worked with distributed version control systems to maintain integrity of finished
+                        code and development branches
+                    </li>
+                    <li>
+                        Owned the process of iterative web application deployments in Dash Enterprise,
+                        gathering and relaying client feedback to the development team
+                    </li>
+                    <li>
+                        Queried client data from an Amazon Redshift database using SQLAlchemy to populate
+                        custom data visualizations in the Plotly Dash web application
+                    </li>
+                    <li>
+                        Wrote CSS code to customize the layout of the Plotly Dash web application
+                    </li>
+                    <li>
+                        Worked with Python, R, and PySpark code in Azure Databricks to automate
+                        and optimize data pipelines as part of a localized pricing effort for a 
+                        major retail client
+                    </li>
+                    <li>
+                        Parameterized Databricks workflows using dynamic Python coding and JSON file
+                        inputs
+                    </li>
+                    <li>
+                        Developed a solution to automate the creation and formatting of Excel reports
+                        using Python and VBA in Databricks, reducing manual interventions and time to 
+                        report completion
+                    </li>
+                </ul>
+            </div>
+            <div id="clarity" class="job">
+                <h3 class="company-name">Clarity Insights</h3>
+                <div class="role">
+                    <b>Data Engineering Consultant</b>
+                    <b class="date">February 2019 - June 2020</b>
+                </div>
+                <ul>
+                    <li>
+                        Designed and developed ETL mappings in Informatica as part of a data
+                        warehousing effort for a dental insurance client
+                    </li>
+                    <li>
+                        Queried data from an Oracle database using SQL
+                    </li>
+                    <li>
+                        Created ETL mapping templates and testing documentation to accelerate
+                        development and improve adherence to design standards
+                    </li>
+                    <li>
+                        Co-authored an "ETL Playbook" document detailing the mapping and warehousing
+                        process executed by our team to assist in knowledge transfer to the client
+                        development team
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div id="skills">
@@ -39,19 +112,16 @@
 
         <div id="education">
             <h3>Education</h3>
-            <h4>Ball State University</h4>
-            <b>Master of Science, Quantitative Psychology</b>
-            <b>Graduate Certificate, Business Essentials</b>
+            <b>Ball State University</b><br>
+            Master of Science, Quantitative Psychology<br>
+            Graduate Certificate, Business Essentials
             <br><br>
-            <h4>Wabash College</h4>
-            <b>Bachelor of Arts, Psychology</b>
+            <b>Wabash College</b><br>
+            Bachelor of Arts, Psychology
             <br><br>
-            <h4>Coursera</h4>
-            <b>Meta Database Engineer Certification</b>
-            <b>Machine Learning Specialization</b>
+            <b>Coursera</b><br>
+            Meta Database Engineer Certification<br>
+            Machine Learning Specialization
         </div>
-
-
     </body>
-
 </html>
