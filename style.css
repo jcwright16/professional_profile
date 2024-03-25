@@ -47,6 +47,10 @@ fieldset {
     width: 60%;
 }
 
+#skills {
+    width: 40%;
+}
+
 .role {
     display: flex;
     width: 100%;
@@ -65,4 +69,33 @@ fieldset {
 legend {
     font-weight: bold;
     text-align: left;
+}
+
+@media (max-width: 680px) {
+    #bg-skills {
+        display: block;
+        margin-right: 2em;
+    }
+    #background, #skills {
+        width: 100%;
+    }
+    .contact-info {
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    #edu-certs {
+        display: block;
+        margin-right: 2em;
+    }
+    #education, #certifications {
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    #clifton-strengths {
+        display: none;
+    }
 }
