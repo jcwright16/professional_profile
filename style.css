@@ -1,13 +1,28 @@
 body {
     font-family: 'Roboto';
     background-color: #6b8ca9;
-    width: 97vw;
+}
+
+.menu-btn {
+    display: none; /* Hide the button by default for larger screens */
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+nav a {
+    color: black;
+    margin-right: 2em;
+}
+
+nav a:hover {
+    color: cyan;
 }
 
 fieldset {
     vertical-align: middle;
     background-color: white;
-    margin-top: 0.5em;
+    margin: 0.5em;
 }
 
 #id-card {
@@ -63,7 +78,6 @@ fieldset {
 
 .role {
     display: flex;
-    width: 100%;
     justify-content: space-between;
 }
 
@@ -74,6 +88,7 @@ fieldset {
 #certifications {
     display: flex;
     align-items: center;
+    width: 50%;
 }
 
 #certifications a {
@@ -91,25 +106,29 @@ legend {
 }
 
 @media (max-width: 680px) {
+    .menu-btn {
+        display: block; /* Show the button for smaller screens */
+    }
+    nav {
+        display: none; /* Hide the menu by default for smaller screens */
+    }
+    nav.show {
+        display: block; /* Show the menu when toggled */
+    }
     #bg-skills {
         display: block;
-        margin-right: 2em;
-    }
-    #background, #skills {
-        width: 100%;
     }
     .contact-info {
         display: block;
+    }
+    #background, #experience, #skills, #education, #certifications {
+        width: unset;
     }
 }
 
 @media (max-width: 450px) {
     #edu-certs {
         display: block;
-        margin-right: 2em;
-    }
-    #education, #certifications {
-        width: 100%;
     }
 }
 

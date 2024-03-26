@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto';
+    background-color: #6b8ca9;
+    width: 97vw;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: cyan;
+}
