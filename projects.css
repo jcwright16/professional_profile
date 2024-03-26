@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto';
+    background-color: #6b8ca9;
+    width: 97vw;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: cyan;
+}
+
+.project-img {
+    max-width: 40%;
+    height: auto;
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+.text-img {
+    max-width: 30%;
+    height: auto;
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+.paragraph-with-img {
+    display: flex;
+    padding-bottom: 2em;
+}
