@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto';
+    background-color: #6b8ca9;
+}
+
+@media (max-width: 680px) {
+    .menu-btn {
+        display: block; /* Show the button for smaller screens */
+    }
+    nav {
+        display: none; /* Hide the menu by default for smaller screens */
+    }
+    nav.show {
+        display: block; /* Show the menu when toggled */
+    }
+    nav  a {
+        display: block;
+    }
+}

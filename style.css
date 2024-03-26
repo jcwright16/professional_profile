@@ -115,6 +115,9 @@ legend {
     nav.show {
         display: block; /* Show the menu when toggled */
     }
+    nav  a {
+        display: block;
+    }
     #bg-skills {
         display: block;
     }

@@ -30,3 +30,24 @@ a:hover {
     display: flex;
     padding-bottom: 2em;
 }
+
+@media (max-width: 680px) {
+    .menu-btn {
+        display: block; /* Show the button for smaller screens */
+    }
+    nav {
+        display: none; /* Hide the menu by default for smaller screens */
+    }
+    nav.show {
+        display: block; /* Show the menu when toggled */
+    }
+    nav  a {
+        display: block;
+    }
+    .paragraph-with-img {
+        display: block;
+    }
+    .project-img, .text-img {
+        width: 100%;
+    }
+}
